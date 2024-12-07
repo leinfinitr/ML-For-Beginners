@@ -39,6 +39,10 @@ def main():
             print(response)
     
     print("It was nice talking to you, goodbye!")
+    
+# Prepare
+import nltk
+nltk.download('punkt_tab')
 
 # Start the program
 main()
